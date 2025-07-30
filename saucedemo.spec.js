@@ -11,6 +11,8 @@ const { chromium } = require('playwright');
     // enter username & password
     await page.fill('#user-name', 'standard_user');
     await page.fill('#password', 'secret_sauce');
+
+    //click on login button
     await page.click('#login-button');
 
 
